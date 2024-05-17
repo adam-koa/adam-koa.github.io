@@ -265,7 +265,7 @@ main {
 #main-resume {
 
     width: 98%;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 
     display: flex;
     flex-direction: column;
