@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/flickity/flickity.css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Adam Koa</title>
+</head>
+
+
+<body>
+    
+    <header>
+        <div id="header-left">
+            <a href="./index.html">
+                <img id="headshot" src="./media/Adam Koa Headshot.jpg" alt="Headshot of Adam Koa">
+            </a>
+            <h1>Adam<br>Koa</h1>
+        </div>
+        
+        <nav>
+            <a class="inactive" href="./index.html">Home</a>
+            <a class="inactive" href="./about-me.html">About</a>
+            <a class="inactive" href="./resume.html">Resume</a>
+            <a class="active" href="./projects.html">Projects</a>
+        </nav>
+    </header>
+
+    <main id="main-projects"> 
+        
+        <div id="main-projects-left">
+            <h1 class="project-header active-project-header" id="website-header" onclick="activateProject(this)">Website</h1>
+            <h1 class="project-header inactive-project-header" id="capstone-header" onclick="activateProject(this)">Capstone</h1>
+            <h1 class="project-header inactive-project-header" id="thesis-header" onclick="activateProject(this)">Thesis</h1>
+            <h1 class="project-header inactive-project-header" id="launcher-header" onclick="activateProject(this)">Ball Launcher</h1>
+            <h1 class="project-header inactive-project-header" id="oscilloscope-header" onclick="activateProject(this)">Oscilloscope</h1>
+            
+        </div>
+
+
+        <div id="main-projects-right">
+
+            <section class="project-content active-project-content" id="website-content">
+                <h1 class="project-title">Website</h1>
+                <h2 class="project-subtitle">Developement of a Personal Website</h2>
+
+                <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround" : true }'>
+ 
+                    <figure class="carousel-cell"><img src="./media/Website/Pic 1.png" class="carousel-image"><figcaption>Homepage prototype</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Website/Pic 2.png" class="carousel-image"><figcaption>Resume prototype</figcaption></figure>
+      
+                </div>
+
+
+                <p class="project-description">
+                    For my final year of undergrad, I worked on a year-long Capstone project with three other Mechanical Engineering students. 
+                    Our team was tasked with designing a novel Continuous Positive Airway Pressure (CPAP) system, so as to improve user comfort.
+                    <br>
+                    <br>
+                    During the initial design phase, I performed 3D-modelling and rapid prototyping (using a 3D printer). Once a design candidate was selected, my tasks were to 
+                    identify cost-effective components for the final design and perform computational fluid dynamics (CFD) simulations to validate the theoretical feasibility of our system.
+                </p>
+
+            </section>
+
+            <section class="project-content inactive-project-content" id="capstone-content">
+                <h1 class="project-title">Capstone</h1>
+                <h2 class="project-subtitle">Novel Continuous Positive Airway Pressure (CPAP) System</h2>
+
+                <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround" : true }'>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 1.png" class="carousel-image"><figcaption>3d model of final design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 2.png" class="carousel-image"><figcaption>3d model of battery pack</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 3.png" class="carousel-image"><figcaption>Exploded view of mask</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 4.png" class="carousel-image"><figcaption>Mask and nasal cavity model</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 5.png" class="carousel-image"><figcaption>Mask and naval cavity airflow simulation</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 6.png" class="carousel-image"><figcaption>Mask and nasal cavity model</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 7.png" class="carousel-image"><figcaption>Mask prototype</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Capstone Project/Capstone 8.png" class="carousel-image"><figcaption>Battery pack prototype</figcaption></figure>
+                </div>
+
+                <p class="project-description">
+                    For my final year of undergrad, I worked on a year-long Capstone project with three other Mechanical Engineering students. 
+                    Our team was tasked with designing a novel Continuous Positive Airway Pressure (CPAP) system, so as to improve user comfort.
+                    <br>
+                    <br>
+                    During the initial design phase, I performed 3D-modelling and rapid prototyping (using a 3D printer). Once a design candidate was selected, my tasks were to 
+                    identify cost-effective components for the final design and perform computational fluid dynamics (CFD) simulations to validate the theoretical feasibility of our system.
+                </p>
+
+            </section>
+
+            <section class="project-content inactive-project-content" id="thesis-content">
+                <h1 class="project-title">Thesis</h1>
+                <h2 class="project-subtitle">Design and Optimization of a Pico-Scale Hydroelectric Turbine</h2>
+
+                <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround" : true }'>
+                    <figure class="carousel-cell"><img src="./media/Thesis Project/Thesis 1.png" class="carousel-image"><figcaption>3d model of turbine system</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Thesis Project/Thesis 2.png" class="carousel-image"><figcaption>3d model of turbine system</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Thesis Project/Thesis 3.png" class="carousel-image"><figcaption>Mesh model of guide vane</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Thesis Project/Thesis 4.png" class="carousel-image"><figcaption>Fluid simulation of spiral casing</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Thesis Project/Thesis 5.png" class="carousel-image"><figcaption>Fluid simulation of turbine system</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Thesis Project/Thesis 6.png" class="carousel-image"><figcaption>Guide vane geometry parameters</figcaption></figure>
+                </div>
+
+                <p class="project-description">
+                    During my final year of undergrad, I wrote a thesis as part of the Water and Energy Research Lab (WERL). The focus of the thesis was on designing and 
+                    optimizing a pico-scale hydroelectric turbine, which could be used to improve industrial piping efficiency or provide small-scale energy extraction.
+                    <br>
+                    <br>
+                    Building off of work performed in previous theses, I spent the first half of my year reviewing fluid dynamics theory, learning computational
+                     fluid dynamics software, and building an initial 3D model. In the second half of the year, I performed a two-stage Taguchi Design of 
+                     Experiments (DOE) in order to optimize the geometry of the turbine.
+                </p>
+            </section>
+
+            <section class="project-content inactive-project-content" id="launcher-content">
+                <h1 class="project-title">Ball Launcher</h1>
+                <h2 class="project-subtitle">4th Year Product Design Course Project</h2>
+
+                <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround" : true }'>
+                    <figure class="carousel-cell"><img src="./media/Ball Launcher Project/Pic 1.png" class="carousel-image"><figcaption>Tube launch mechanism</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Ball Launcher Project/Pic 2.png" class="carousel-image"><figcaption>Launch tube</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Ball Launcher Project/Pic 3.png" class="carousel-image"><figcaption>Launch tube manufacturing drawing</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Ball Launcher Project/Pic 4.png" class="carousel-image"><figcaption>Launch base manufacturing drawing</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Ball Launcher Project/Pic 5.png" class="carousel-image"><figcaption>Launch system rendering</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Ball Launcher Project/Pic 6.png" class="carousel-image"><figcaption>Launch system prototype</figcaption></figure>
+                </div>
+
+                <p class="project-description">
+                    As part of a fourth year course on Product Design, I worked on a team of six engineering students to design and prototype a ping-pong ball launcher. 
+                    As per the project’s guidelines, the launcher had to conform to a number of specifications and requirements, including size, launch distance, safety, and cost.
+                    <br>
+                    <br>
+                    During the preliminary design phase, I was responsible for generating an initial concept and performing an economic analysis. I also assisted other 
+                    team members in creating a Product Functional Decomposition (PFD) diagram and performing Design Failure Mode Effect Analysis (DFMEA). Once a final design 
+                    concept was chosen, my primary task was to create a 3D-model for the launching tube and mechanism, along with relevant engineering drawings. I was also 
+                    heavily involved in creating the Design of Experiments (DOE) used to test the launcher’s capabilities. Once a final design concept was chosen, my primary task was 
+                    to create a 3D-model for the launching tube and mechanism, along with relevant engineering drawings. I was also heavily involved in creating the Design of Experiments (DOE) used to test the launcher’s capabilities.
+                </p>
+
+            </section>
+
+            <section class="project-content inactive-project-content" id="oscilloscope-content">
+                <h1 class="project-title">Oscilloscope</h1>
+                <h2 class="project-subtitle">3rd Year Mechatronics Course Project</h2>
+
+                <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround" : true }'>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture1.png" class="carousel-image"><figcaption>Initial design for the analog circuit in PSpice</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture2.png" class="carousel-image"><figcaption>PCB layout for initial design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture3.png" class="carousel-image"><figcaption>PCB layout for initial design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture4.png" class="carousel-image"><figcaption>PCB layout for initial design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture5.png" class="carousel-image"><figcaption>Initial PCB prototype</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture6.png" class="carousel-image"><figcaption>Initial PCB prototype</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture7.png" class="carousel-image"><figcaption>PCB case design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture8.png" class="carousel-image"><figcaption>Final circuit design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture9.png" class="carousel-image"><figcaption>PCB layout for final design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture10.png" class="carousel-image"><figcaption>PCB layout for final design</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture11.png" class="carousel-image"><figcaption>Final PCB prototype</figcaption></figure>
+                    <figure class="carousel-cell"><img src="./media/Oscilloscope Project/Picture12.png" class="carousel-image"><figcaption>Final PCB prototype with case</figcaption></figure>
+                </div>
+
+                <p class="project-description">
+                    In my third year of undergraduate education, I worked on a design project for my Analog and Digital Electronics for Mechatronics (MIE346) course. The project 
+                    involved designing and prototyping an oscilloscope could convert both a 15 V and 1.5 V AC input signal into a 0 V – 5 V output signal.
+                    <br>
+                    <br>
+                    The project began with a conceptual design phase, which resulted in a theoretical design for the analog circuitry involved in the oscilloscope. From this, a PCB 
+                    layout was created in EAGLE, which represented a physical version of the theoretical circuit. After a prototype was manufactured, this PCB was tested in order 
+                    to determine any issues that might require updating for the final design. The initial circuit design was then integrated into a broader circuit, which now included 
+                    digital components. A case for the PCB was also 3D-modeled and 3D-printed. The final PCB was manufactured to create a final prototype, which was integrated 
+                    into the 3D-printed case.
+                </p>
+
+            </section>
+        </div>
+    
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content footer-email">
+            <strong>Email</strong>
+            <p>adamd.koa@gmail.com</p>
+        </div> 
+
+        <div class="footer-content footer-linkedin">
+            <strong>LinkedIn</strong><br>
+            <a href="https://www.linkedin.com/in/adam-koa" class="fa fa-linkedin"></a>
+        </div> 
+    </footer>
+
+    <script src="/flickity/flickity.pkgd.min.js"></script>
+    <script src="/projects.js"></script>
+
+</body>
+</html>
