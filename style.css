@@ -389,6 +389,7 @@ main {
 }
 
 .resume-content ul {
+    font-size: 1.1rem;
     list-style-position: outside;
     list-style-type: circle;
 
